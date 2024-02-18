@@ -17,11 +17,13 @@
 // cd / home / akram
 
 // cd..
+
 // pwd
 
 // cd / home / akram
 
 // cd../..
+
 // pwd
 
 // pwd
@@ -38,6 +40,7 @@
 
 // cd../ akram /../ akram
 
+// cd../ akram /../ akram
 
 
 
