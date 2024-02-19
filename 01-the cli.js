@@ -241,13 +241,39 @@
 // :/$  clear
 
 
+// ------------------------------
 
 
+// :/$   ls -lsah snap
+
+// :/$   clear
 
 
+// ------------------------------
 
 
+// :/$   cd home/
 
+// :/$   cd ..
+
+// :/$   ls
+
+// :/$   cd home/akram/
+
+// :/$   cd home/akram/snap/multipass-sshfs/
+
+// :/$   ls
+
+// :/$   py
+
+// :/$   pyth
+
+// :/$   git describe
+
+
+// ---- if you hit Ctrl+R    ---> ls -lsah snap
+
+// ---- if you hit Ctrl+R    ---> ls snap/
 
 
 
