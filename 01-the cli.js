@@ -319,6 +319,23 @@
 
 
 
+// ============ CLI Shortcuts ============ //
+
+// - Ctrl +  A - takes you to the beginning of the line
+
+// - Ctrl +  E - takes you to end of the line
+
+// - Ctrl +  K - "yank" everything after the cursosr
+
+// - Ctrl +  U - "yank" everything before the cursosr
+
+// - Ctrl +  Y - "paste" (paste in quotes because it doesn't actually go inti your system clipboard ) everything you yanked 
+
+// - Ctrl +  L - clear the screen 
+
+// - Ctrl +  R - reverse search through history
+
+
 
 
 
