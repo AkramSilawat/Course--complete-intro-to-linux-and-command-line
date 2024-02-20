@@ -338,10 +338,26 @@
 
 
 
+// ============= Signals ============ //
+
+// - Ctrl + C - SIGINT
+
+/* ==---> So go type yes into your terminal, You'll find yourself with an infinite wall of 
+          ever-spamming y s in front of you. To stop it, hit Ctrl + C and it'll stop immediately. */
+
+
+// :/$   tail -f .bash_history
+
+
+// :/$   yes
+
+// - Ctrl + C 
+
+// - Ctrl + D
 
 
 
-
+// - Ctrl + D - SIGINT
 
 
 
