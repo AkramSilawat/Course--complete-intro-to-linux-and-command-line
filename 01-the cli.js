@@ -279,6 +279,67 @@
 
 
 
+// ============ Bash History ============ //
+
+// :/$   tail ~/.bash_history
+
+// :/$   pwd
+
+// :/$   ls -a
+
+// :/$   ls -a
+
+// :/$   clear
+
+
+// -------------------------
+
+// :/$   ls -a
+
+// :/$   !!
+
+// :/$   clear
+
+
+// ------------------------
+
+
+// :/$   ls
+
+// :/$   Ctrt+L   -----> it also does clear.     // ctrl+N -> No idea
+
+
+
+// -------> Copy and paste on the command line <-------- //
+
+
+// == ----> Ctrl+Shift+C     and    Ctrl+Shift+V. <---- == //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
