@@ -52,9 +52,19 @@
 
 
 
+// ============ VIM: Basic Command ============ //
 
 
+// :~$  vi textfile.txt
 
+// - Output:
+// - Press ENTER to continue
 
+// - this is brian
 
+// - we're typing in cim now 
+
+// - this is so much fun 
+
+// - write some more stuff
 
