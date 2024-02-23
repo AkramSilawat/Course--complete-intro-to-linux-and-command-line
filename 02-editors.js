@@ -1,5 +1,5 @@
  // ============ Nano ============ //
- 
+
  // :~$  kill -l
 
  // :~$  cd ~
@@ -68,3 +68,16 @@
 
 // - write some more stuff
 
+
+
+
+
+// : w.That's how you save
+
+// : q! Quit
+
+// z:q may not work
+
+// wq! This saves and quits
+
+// q! This just quits without saving
