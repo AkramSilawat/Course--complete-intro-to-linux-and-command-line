@@ -14,3 +14,14 @@
 // :~$ less textfile.txt
 
 // :~$ more textfile.txt
+
+
+
+
+// ============ Man ============ //
+
+// :~$ man less         // --> manual for less.
+
+// :~$ less --help      //--> summary of less Commmand
+
+// :~$ man python3
