@@ -25,3 +25,36 @@
 // :~$ less --help      //--> summary of less Commmand
 
 // :~$ man python3
+
+
+
+
+
+// ----------> cat  <-------------- //
+
+
+// :~$ cat textfile.txt                //---> cat does is read the entire file and output it
+
+
+
+// ============ Head/Tail ============ //
+
+// :~$ tail textfile.txt             
+
+// :~$ head textfile.txt        
+ 
+// :~$ tail -n 3 textfile.txt          // --->  just see three lines
+
+// :~$ tail -f textfile.txt   
+
+// :~$ ^c  //--> that 's out of
+
+// open the new terminal
+
+// :~$ echo hi  >> textfile.txt        // ---> add something to the end of the file
+
+// :~$ echo hi there >> textfile.txt
+
+// :~$ ^c
+
+// :~$ clear 
