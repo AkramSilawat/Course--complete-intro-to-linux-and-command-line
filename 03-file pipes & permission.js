@@ -2,9 +2,11 @@
 
 // ---> LESS <---
 
+
 // :~$  less textfile.txt
 
 // :~$  ls 
+
 // -  textfile.txt  test1.c   test2.c   test3.cpp
 
 // :~$  vi textfile.txt
@@ -120,3 +122,22 @@
 // :~$  touch my-new-file.txt
 
 // :~$  echo "Hello World!" >
+
+
+// -----------------------------------------------
+
+// ----> rm
+
+// :~$  rm my-new-file.txt      // ---> remove the one file
+
+// :~$  ls
+
+// :~$  rm -r my-new-file.txt
+
+// :~$  rm -rf /.        
+// --->  Never run this command:This is a famous command to run that will 
+// --->  start deleting your whole system including the critical system files. 
+
+//  trash-cli
+
+// :~$  rash-put file.txt
