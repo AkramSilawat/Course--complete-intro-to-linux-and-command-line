@@ -2,29 +2,29 @@
 
 // ---> LESS <---
 
-// :~$ less textfile.txt
+// :~$  less textfile.txt
 
-// :~$ ls 
-// - textfile.txt  test1.c   test2.c   test3.cpp
+// :~$  ls 
+// -  textfile.txt  test1.c   test2.c   test3.cpp
 
 // :~$  vi textfile.txt
 
-// :~$ less 
+// :~$  less 
 
-// :~$ less textfile.txt
+// :~$  less textfile.txt
 
-// :~$ more textfile.txt
+// :~$  more textfile.txt
 
 
 
 
 // ============ Man ============ //
 
-// :~$ man less         // --> manual for less.
+// :~$  man less         // --> manual for less.
 
-// :~$ less --help      //--> summary of less Commmand
+// :~$  less --help      // --> summary of less Commmand
 
-// :~$ man python3
+// :~$  man python3
 
 
 
@@ -58,3 +58,41 @@
 // :~$ ^c
 
 // :~$ clear 
+
+
+//-------------------------------------------
+
+
+//primary Directory
+
+// /home/username             // ---> home directory
+
+// :~$  ls 
+
+// :~$  pwd
+
+// :~$  mkdir my-new-folder 
+
+// :~$  ls
+ 
+// :~$  cd my-new-folder/
+
+// :~$  /my-new-folder ls
+
+// :~$  pwd
+
+// :~$  mkdir -p hi/my/name/is/brian
+
+// :~$  ls
+// -->  Home hy my-new-folder snap textfile.txt
+
+// :~$   cd hi/
+
+// :~/hi$  ls 
+// --> my
+
+// :~/hi$  cd my/name/is/brian/
+
+// :~/hi/my/name/is/brian$  ls
+
+// :~/hi/my/name/is/brian$  pwd
