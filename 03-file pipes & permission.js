@@ -96,3 +96,27 @@
 // :~/hi/my/name/is/brian$  ls
 
 // :~/hi/my/name/is/brian$  pwd
+
+
+
+
+// ========== Creating & Moving Files ============ //
+
+// ----> Create a new file called "textfile2.txt" in the "/home/username <---- //
+
+
+// :~$  mkdir --help
+
+// :~$  cd ~
+
+// :~$  ls
+
+// :~$  ls -lash
+
+// :~$  touch my-new-file.txt   //change modify time
+ 
+// :~$  ls -lash
+
+// :~$  touch my-new-file.txt
+
+// :~$  echo "Hello World!" >
