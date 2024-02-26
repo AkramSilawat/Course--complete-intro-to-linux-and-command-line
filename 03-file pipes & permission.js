@@ -141,3 +141,34 @@
 //  trash-cli
 
 // :~$  rash-put file.txt
+
+
+
+//---------------------------------------------------------------
+
+
+// :~$  cp source-file.txt destination-file.txt
+
+// :~$  cp textfile.txt destination-file.txt
+
+// :~$  ls
+/* ----> Home   destination-file.txt  hi  snap textfile.txt <---- */
+
+// --> cp -R source-directory destination-directory
+
+// :~$  cp -R hi bye   
+
+// :~$  ls
+
+// :~$  cd bye
+
+// :~/bye$  ls
+
+/* ---> Home  there  you <--- */
+
+// :~/bye$  cd there
+
+// :~/bye/there$  ls
+
+/* ---> Home  me  you <--- */
+
