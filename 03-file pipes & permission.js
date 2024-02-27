@@ -124,15 +124,37 @@
 // :~$  echo "Hello World!" >
 
 
-// -----------------------------------------------
-
-// ----> rm
+// ---------
 
 // :~$  rm my-new-file.txt      // ---> remove the one file
 
 // :~$  ls
 
-// :~$  rm -r my-new-file.txt
+// :~$  rm my-new-folder/ 
+
+// :~$  rm -r my-new-folder/ 
+
+// :~$  ls
+
+// :~$  mkdir lol
+
+// :~$  cd lol
+
+// :~/lol$  touch some-file.txt
+
+// :~$  cd ..
+
+// :~$  rm -r lol
+
+// :~$  ls
+
+// :~$  mkdir -p lol/hey
+
+// :~$  rm -r lol
+
+// :~$  ls
+
+
 
 // :~$  rm -rf /.        
 // --->  Never run this command:This is a famous command to run that will 
@@ -140,47 +162,39 @@
 
 //  trash-cli
 
-// :~$  rash-put file.txt
-
+// :~$  clear
 
 
 //-----------------------------------------------
 
+// :~$  ls
 
 // :~$  cp source-file.txt destination-file.txt
 
-// :~$  cp textfile.txt destination-file.txt
-
 // :~$  ls
-/* ----> Home   destination-file.txt  hi  snap textfile.txt <---- */
-
-// --> cp -R source-directory destination-directory
 
 // :~$  cp -R hi bye   
 
-// :~$  ls
+// :~$  ls -lsah
 
 // :~$  cd bye
 
 // :~/bye$  ls
 
-/* ---> Home  there  you <--- */
+// :~/bye$  cd my/name/is/brian/
 
-// :~/bye$  cd there
-
-// :~/bye/there$  ls
-
-/* ---> Home  me  you <--- */
-
-
-
-//--------------------------------------------
-
-//:~$  mv                // ---> (move) the file
-
-// :~$  touch file.txt   // ---> then
-
-// :~$  mv file.txt new-name.txt
+// :~/bye/my/name/is/brian/$  cd ~
 
 // :~$  ls
+
+// :~$  mv bye something-else
+
+// :~$  ls
+
+// :~$  mv destination-file.txt another-file.txt
+
+// :~$  ls
+
+// :~$  clear
+
 
