@@ -261,7 +261,60 @@
 // :~/extracted$  ls
 
 
+
 // ============================================================
+
+
+
+// ============ Wildcards & Reolacements ============ // 
+
+// :~/extracted$  cd ..
+
+// :~$  ls
+
+// :~$  cd folder1/
+
+// :~/folder1$  ls
+
+// :~/folder1$  cd .. 
+
+// :~$  mkdir folder2
+
+// :~$  cd folder2
+
+// :~/folder2$  touch file{1,2,3,4}.txt  
+
+
+// :~/folder2$ ls
+
+// -->> Output :
+// --> file1.txt file2.txt file3.txt file4.txt 
+     
+
+// :~/folder2$  touch file-{mn,wa,mt,ut}.txt
+
+
+// :~/folder2$  ls
+
+// -->> Output:
+// --> file-mn.txt  file-ut.txt  file1.txt  file3.txt
+// --> file-mt.txt  file-wa.txt  file2.txt  file4.txt
+ 
+
+// :~/folder2$  touch file10.txt
+
+// :~/folder2$  ls file-*          // --> Showing Wildcard
+
+// :~/folder2$  clear
+
+
+
+
+
+
+
+
+
 
 
 
