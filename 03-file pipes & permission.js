@@ -101,6 +101,8 @@
 
 
 
+// ======================================================================
+
 
 // ========== Creating & Moving Files ============ //
 
@@ -156,9 +158,8 @@
 
 
 
-// :~$  rm -rf /.        
-// --->  Never run this command:This is a famous command to run that will 
-// --->  start deleting your whole system including the critical system files. 
+// :~$  rm -rf /.            // --->  Never run this command:This is a famous command to run that will 
+                             // --->  start deleting your whole system including the critical system files. 
 
 //  trash-cli
 
@@ -171,7 +172,9 @@
 
 // :~$  cp source-file.txt destination-file.txt
 
-// :~$  ls
+// :~$  ls   
+                // --> Home   destination-file.txt  hi  snap textfile.txt
+          
 
 // :~$  cp -R hi bye   
 
@@ -187,7 +190,7 @@
 
 // :~$  ls
 
-// :~$  mv bye something-else
+// :~$  mv bye something-else            // Mv ---> (move the file)
 
 // :~$  ls
 
@@ -196,5 +199,69 @@
 // :~$  ls
 
 // :~$  clear
+
+
+// ----------------------------------------------------
+
+// ===---> tar           // ---> Zip is initialy Compress
+
+// :~$  mkdir folder1
+
+// :~$  cd folder1/      // Go to That Directory
+
+// :~/folder1$  touch file1.txt file2.txt file3.txt file4.txt
+
+// :~/folder1$  ls
+
+// :~/folder1$  cd ..
+
+// :~$  ls
+
+// :~$  tar -cf archive.tar textfile.txt folder1
+
+// :~$  ls -lash
+
+// :~$  tar -cfz archive.tar.gz textfile.txt folder1
+
+// :~$  ls
+
+// :~$  ls -lash
+
+// :~$  mkdir extracted
+
+// :~$  mv archive.tar.gz extracted/
+
+// :~$  ls
+
+// :~$  cd extracted/
+
+// :~/extracted$  ls
+
+// :~/extracted$  pwd
+
+// :~/extracted$  clear
+
+
+// ---------------------------------------------------------
+
+// :~/extracted$  tar -xzf archive.tar.gz some-folder
+
+// :~/extracted$  tar -zxf archive.tar.gz some-folder
+
+// :~/extracted$  ls
+
+// :~/extracted$  ls -lash
+
+// :~/extracted$  tar -xzf archive.tar.gz -C destination
+
+// :~/extracted$  ls
+
+// :~/extracted$  ls destination/
+
+// :~/extracted$  ls
+
+
+// ============================================================
+
 
 
