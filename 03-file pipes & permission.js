@@ -341,3 +341,44 @@
 
 // --> file-ca.txt  file-mn.txt  file-mt.txt  file-ny.txt  file-ut.txt  file-wa.txt 
 
+// -------------------------------------------
+
+//:~/folder2$  cd ..
+
+//:~$  mkdir folder3 
+
+//:~$  cd folder3
+
+//:~/folder3$  touch file{1..30}.txt
+
+//:~/folder3$  ls
+    /** 
+         *  file1.txt   file14.txt  file19.txt  file23.txt  file28.txt  file5.txt 
+         *  file10.txt  file15.txt  file20.txt  file24.txt  file29.txt  file6.txt 
+         *  file11.txt  file16.txt  file2.txt   file25.txt  file30.txt  file7.txt 
+         *  file12.txt  file17.txt  file21.txt  file26.txt  file27.txt  file8.txt 
+         *  file13.txt  file18.txt  file22.txt  file27.txt  file4.txt   file9.txt 
+
+    */
+        
+
+//:~/folder3$  touch file{a..z}.txt
+
+//:~/folder3$  ls
+    /***
+         *  file1.txt   file17.txt  file24.txt  file4.txt  filec.txt  filek.txt  files.txt
+         *  file10.txt  file18.txt  file25.txt  file5.txt  filed.txt  filel.txt  filet.txt
+         *  file11.txt  file19.txt  file26.txt  file6.txt  filee.txt  filem.txt  fileu.txt
+         *  file12.txt  file2.txt   file27.txt  file7.txt  filef.txt  filen.txt  filev.txt
+         *  file13.txt  file20.txt  file28.txt  file8.txt  fileg.txt  fileo.txt  filew.txt
+         *  file14.txt  file21.txt  file29.txt  file9.txt  fileh.txt  filep.txt  filex.txt
+         *  file15.txt  file22.txt  file3.txt   filea.txt  filei.txt  fileq.txt  filey.txt
+         *  file16.txt  file23.txt  file30.txt  fileb.txt  filej.txt  filer.txt  filez.txt
+
+         */
+
+
+
+
+
+
