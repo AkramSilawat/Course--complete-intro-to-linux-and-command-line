@@ -416,5 +416,20 @@
 //:~/folder3$  clear 
 
 
+// ------------------------------------------------------------
+
+
+//:~/folder3$  touch file\f?.txt
+
+//:~/folder3$  ls          // --> listing all the files in the directory
+
+
+//:~/folder3$  touch file/ cool.txt
+
+//:~/folder3$  ls
+
+//:~/folder3$  touch file//.txt
+
+//:~/folder3$  ls
 
 
