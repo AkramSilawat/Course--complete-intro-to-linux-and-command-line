@@ -308,13 +308,36 @@
 // :~/folder2$  clear
 
 
+// -------------------------------------
+
+
+// :~/folder2$  ls file*
+
+// --> file-mn.txt  file-ut.txt  file.tat  file1.txt   file2.txt  file4.txt
+// --> file-mt.txt  file-wa.txt  file.txt  file10.txt  file3.txt*/
+
+// :~/folder2$  touch file.txt
+// :~/folder2$  touch file*.txt
+// :~/folder2$  touch file?.txt
+
+// :~/folder2$  ls
+
+// --> file-mn.txt  file-ny.txt  file.txt   file10.txt  file3.txt
+// --> file-mt.txt  file-wa.txt  file1.txt  file2.txt   file4.txt
+
+// :~/folder2$  ls file*.txt  
+
+// --> file-mn.txt  file-ny.txt  file.txt   file10.txt  file3.txt
+// --> file-mt.txt  file-wa.txt  file1.txt  file2.txt   file4.txt
 
 
 
+//:~/folder2$  ls file?.txt
+    
+/* file1.txt  file2.txt  file3.txt  file4.txt */
 
 
+//:~/folder2$  ls file-??.txt
 
-
-
-
+// --> file-ca.txt  file-mn.txt  file-mt.txt  file-ny.txt  file-ut.txt  file-wa.txt 
 
