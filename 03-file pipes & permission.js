@@ -493,30 +493,19 @@
 
 //:~/streams$  clear
 
+// --------------------------------------------------------
 
+//:~/streams$  ls -lsah 1> ls.txt 2> ls-error.txt
 
+//:~/streams$  ls -lsah > ls.txt
 
+//:~/streams$  ls -lsah >> ls.txt
 
+//:~/streams$  ls -lsah 2> /dev/null
 
+//:~/streams$  ls -lsah 2> /dev/null
 
+//:~/streams$  cat some-file.txt 1> /dev/null
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//:~/streams$  cat some-file.txt 2> /dev/null
 
