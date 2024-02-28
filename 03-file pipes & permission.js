@@ -553,4 +553,74 @@
 // :~$  echo hello >> ls.txt
 
 // :~$  cat ls.txt
-// --> hello
+// -->  hello
+
+
+// :~$  ps aux                // --> display information about all running processes on the system
+
+// :~$  ps aux | grep "ps aux "
+
+// :~$  yes > /dev/null &     // --> [1] 1188
+
+// :~$  ps aux | grep "yes"
+
+// :~$  kill -9 1126
+
+
+
+//-------------------------------------------
+
+
+// ---> working on folder3/
+
+// :~/$ rm -i *.txt              // --> remove all file with .txt But Permission "y" or "n"
+
+// :~/$ yes n | rm - *.txt       
+
+// :~/$ yes y | rm - *.txt       // --> all txt file imidietaly Deleted
+
+// :~/$ ls
+
+// :~/$ echo lollerskates > file.txt
+
+// :~/$ cat file.txt 
+
+// :~/$ cat file.txt >>echo
+
+// :~/$ ls 
+
+// :~/$ cat file.txt | echo
+
+// :~/$ cat file.txt | cat 
+
+// :~/$ cat file.txt | echo hy
+// --> hi
+
+// :~/$ yes > /dev/null &    // --> [1] 1257
+
+// :~/$ ps aux | grep yes 
+
+
+
+
+
+// ============ Principle of least Power ============ //
+
+// :~$ whoami                // --> dell 
+
+// :~$ cat /etc/passwd
+
+// :~/$ cd..
+
+// :~/$ mkdir hi             // --> creat hi direc.
+
+// :~/$ -lsah
+ 
+// :~/$ cd ..
+
+// :~/$ cd Home/
+
+// :~/$  ls -lsah
+ 
+// :~/$ rm -rf / Home/*      // --> delete all files and dir in    /
+ 
