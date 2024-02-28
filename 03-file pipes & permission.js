@@ -62,10 +62,10 @@
 // :~$ clear 
 
 
-//-------------------------------------------
+// -------------------------------------------
 
 
-//primary Directory
+// --> primary Directory
 
 // /home/username             // ---> home directory
 
@@ -332,26 +332,26 @@
 
 
 
-//:~/folder2$  ls file?.txt
+// :~/folder2$  ls file?.txt
     
 /* file1.txt  file2.txt  file3.txt  file4.txt */
 
 
-//:~/folder2$  ls file-??.txt
+// :~/folder2$  ls file-??.txt
 
 // --> file-ca.txt  file-mn.txt  file-mt.txt  file-ny.txt  file-ut.txt  file-wa.txt 
 
 // -------------------------------------------
 
-//:~/folder2$  cd ..
+// :~/folder2$  cd ..
 
-//:~$  mkdir folder3 
+// :~$  mkdir folder3 
 
-//:~$  cd folder3
+// :~$  cd folder3
 
-//:~/folder3$  touch file{1..30}.txt
+// :~/folder3$  touch file{1..30}.txt
 
-//:~/folder3$  ls
+// :~/folder3$  ls
     /** 
          *  file1.txt   file14.txt  file19.txt  file23.txt  file28.txt  file5.txt 
          *  file10.txt  file15.txt  file20.txt  file24.txt  file29.txt  file6.txt 
@@ -362,9 +362,9 @@
     */
         
 
-//:~/folder3$  touch file{a..z}.txt
+// :~/folder3$  touch file{a..z}.txt
 
-//:~/folder3$  ls
+// :~/folder3$  ls
     /***
          *  file1.txt   file17.txt  file24.txt  file4.txt  filec.txt  filek.txt  files.txt
          *  file10.txt  file18.txt  file25.txt  file5.txt  filed.txt  filel.txt  filet.txt
@@ -377,31 +377,31 @@
 
          */
 
-//:~/folder3$  echo {a..z}
+// :~/folder3$  echo {a..z}
 
 // ---> a b c d e f g h i j k l m n o p q r s t u v w x y z
 
-//:~/folder3$  echo {z..a}
+// :~/folder3$  echo {z..a}
 
-//:~/folder3$  echo {z..a..2}
+// :~/folder3$  echo {z..a..2}
 
-//:~/folder3$  echo {z..a..5}
+// :~/folder3$  echo {z..a..5}
 
-//:~/folder3$  echo {1..100..10}
+// :~/folder3$  echo {1..100..10}
 
-//:~/folder3$  echo {0..100..10}
+// :~/folder3$  echo {0..100..10}
 
-//:~/folder3$  echo {A..Z..10}
+// :~/folder3$  echo {A..Z..10}
 // ---> A K U
 
-//:~/folder3$  echo {a..Z..10}
+// :~/folder3$  echo {a..Z..10}
 // ---> a
 
-//:~/folder3$  echo {A..z..10}
+// :~/folder3$  echo {A..z..10}
 // ---> A K U _ i s
 
 
-//:~/folder3$  echo {a..z}{1..5}
+// :~/folder3$  echo {a..z}{1..5}
 /**
  *  a1 a2 a3 a4 a5 b1 b2 b3 b4 b5 c1 c2 c3 c4 c5 d1 d2 d3 d4 d5 e1 e2 e3 e4 e5 f1 f2 f3 f4 f5
  *  g1 g2 g3 g4 g5 h1 h2 h3 h4 h5 i1 i2 i3 i4 i5 j1 j2 j3 j4 j5 k1 k2 k3 k4 k5 l1 l2 l3 l4 l5 
@@ -411,101 +411,146 @@
  * 
  * */ 
 
-//:~/folder3$  echo {a..z}{1..5}{1..2}
+// :~/folder3$  echo {a..z}{1..5}{1..2}
 
-//:~/folder3$  clear 
+// :~/folder3$  clear 
 
 
 // ------------------------------------------------------------
 
 
-//:~/folder3$  touch file\f?.txt
+// :~/folder3$  touch file\f?.txt
 
-//:~/folder3$  ls          // --> listing all the files in the directory
+// :~/folder3$  ls          // --> listing all the files in the directory
 
 
-//:~/folder3$  touch file/ cool.txt
+// :~/folder3$  touch file/ cool.txt
 
-//:~/folder3$  ls
+// :~/folder3$  ls
 
-//:~/folder3$  touch file//.txt
+// :~/folder3$  touch file//.txt
 
-//:~/folder3$  ls
+// :~/folder3$  ls
 
 
 
 // ============ Output Streams ============ //
 
 
-//:~/folder3$  cd ..
+// :~/folder3$  cd ..
 
-//:~$  mkdir streams
+// :~$  mkdir streams        // --> create a directory
 
-//:~$  cd streams 
+// :~$  cd streams 
 
-//:~/streams$  ls
+// :~/streams$  ls
 
-//:~/streams$  echo 'this is my text'
+// :~/streams$  echo 'this is my text'
 
-//:~/streams$  echo 'this is my text' 1> new-file.txt
+// :~/streams$  echo 'this is my text' 1> new-file.txt
 
-//:~/streams$  ls
+// :~/streams$  ls
 
-//:~/streams$  cat new-file.txt
+// :~/streams$  cat new-file.txt
 
-//:~/streams$  cat new-file.txt 1> another-file.txt
+// :~/streams$  cat new-file.txt 1> another-file.txt
 
-//:~/streams$  ls
+// :~/streams$  ls
 
-//:~/streams$  cat another-file.txt
+// :~/streams$  cat another-file.txt
 
-//:~/streams$  cat new-file.txt 1>> another-file.txt
+// :~/streams$  cat new-file.txt 1>> another-file.txt    // --> appending to existing file
 
-//:~/streams$  cat another-file.txt
+// :~/streams$  cat another-file.txt
 
-//:~/streams$  cat new-file.txt 1> another-file.txt
+// :~/streams$  cat new-file.txt 1> another-file.txt
  
-//:~/streams$  cat another-file.txt
+// :~/streams$  cat another-file.txt
 
-//:~/streams$  ls -lsah 1> ls.txt
+// :~/streams$  ls -lsah 1> ls.txt
 
-//:~/streams$  cat ls.txt
+// :~/streams$  cat ls.txt
 
-//:~/streams$  ls 1> ls.txt
+// :~/streams$  ls 1> ls.txt
 
-//:~/streams$  ls
+// :~/streams$  ls
 
-//:~/streams$  cat ls.txt
+// :~/streams$  cat ls.txt
 
-//:~/streams$  cat non-existant-file.txt
+// :~/streams$  cat non-existant-file.txt
 
-//:~/streams$  cat non-existant-file.txt 1> cat .txt
+// :~/streams$  cat non-existant-file.txt 1> cat .txt
 
-//:~/streams$  ls
+// :~/streams$  ls
 
-//:~/streams$  cat cat.txt
+// :~/streams$  cat cat.txt
 
-//:~/streams$  cat non existant-file.txt 2> error.txt
+// :~/streams$  cat non existant-file.txt 2> error.txt
 
-//:~/streams$  ls
+// :~/streams$  ls
 
-//:~/streams$  cat error.txt
+// :~/streams$  cat error.txt
 
-//:~/streams$  clear
+// :~/streams$  clear
 
 // --------------------------------------------------------
 
-//:~/streams$  ls -lsah 1> ls.txt 2> ls-error.txt
+// :~/streams$  ls -lsah 1> ls.txt 2> ls-error.txt
 
-//:~/streams$  ls -lsah > ls.txt
+// :~/streams$  ls -lsah > ls.txt
 
-//:~/streams$  ls -lsah >> ls.txt
+// :~/streams$  ls -lsah >> ls.txt
 
-//:~/streams$  ls -lsah 2> /dev/null
+// :~/streams$  ls -lsah 2> /dev/null
 
-//:~/streams$  ls -lsah 2> /dev/null
+// :~/streams$  ls -lsah 2> /dev/null
 
-//:~/streams$  cat some-file.txt 1> /dev/null
+// :~/streams$  cat some-file.txt 1> /dev/null
 
-//:~/streams$  cat some-file.txt 2> /dev/null
+// :~/streams$  cat some-file.txt 2> /dev/null
 
+
+
+
+
+// ============ Input Streams ============== //
+
+
+// :~$  grep "ls-error.txt" < ls.txt
+    /**  Output:
+     * - 0 -rw-r--r-- 1 dell 197121  0 Feb 27 19:47 ls-error.txt
+     * - 0 -rw-r--r-- 1 dell 197121  0 Feb 27 19:47 ls-error.txt
+
+    */   // ---> the contents of the file to standard input(stdin)
+
+// -------------------------------------------
+
+// ----> Using stdin and stdout
+
+// :~$  grep "ls-error.txt" < ls.txt 1> grep.txt 2> /dev/null   
+
+// :~$  cat grep.txt
+    /** - Output:
+     * - 0 -rw-r--r-- 1 dell 197121  0 Feb 27 19:47 ls-error.txt
+     * - 0 -rw-r--r-- 1 dell 197121  0 Feb 27 19:47 ls-error.txt
+     * /
+
+// :~$  grep "ls-error.txt" < ls.txt
+
+     /** - Output:
+     * - 0 -rw-r--r-- 1 dell 197121  0 Feb 27 19:47 ls-error.txt
+     * - 0 -rw-r--r-- 1 dell 197121   0 Feb 27 19:47 ls-error.txt
+     */
+
+
+
+
+// ============ Pipes ============= //
+
+
+// :~$  cat ls.txt | grep "ls-error.txt"   //Concatinate One Prg. to Another
+
+// :~$  echo hello >> ls.txt
+
+// :~$  cat ls.txt
+// --> hello
