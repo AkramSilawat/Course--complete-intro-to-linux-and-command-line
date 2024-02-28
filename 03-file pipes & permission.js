@@ -433,3 +433,90 @@
 //:~/folder3$  ls
 
 
+
+// ============ Output Streams ============ //
+
+
+//:~/folder3$  cd ..
+
+//:~$  mkdir streams
+
+//:~$  cd streams 
+
+//:~/streams$  ls
+
+//:~/streams$  echo 'this is my text'
+
+//:~/streams$  echo 'this is my text' 1> new-file.txt
+
+//:~/streams$  ls
+
+//:~/streams$  cat new-file.txt
+
+//:~/streams$  cat new-file.txt 1> another-file.txt
+
+//:~/streams$  ls
+
+//:~/streams$  cat another-file.txt
+
+//:~/streams$  cat new-file.txt 1>> another-file.txt
+
+//:~/streams$  cat another-file.txt
+
+//:~/streams$  cat new-file.txt 1> another-file.txt
+ 
+//:~/streams$  cat another-file.txt
+
+//:~/streams$  ls -lsah 1> ls.txt
+
+//:~/streams$  cat ls.txt
+
+//:~/streams$  ls 1> ls.txt
+
+//:~/streams$  ls
+
+//:~/streams$  cat ls.txt
+
+//:~/streams$  cat non-existant-file.txt
+
+//:~/streams$  cat non-existant-file.txt 1> cat .txt
+
+//:~/streams$  ls
+
+//:~/streams$  cat cat.txt
+
+//:~/streams$  cat non existant-file.txt 2> error.txt
+
+//:~/streams$  ls
+
+//:~/streams$  cat error.txt
+
+//:~/streams$  clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
