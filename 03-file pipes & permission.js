@@ -571,34 +571,34 @@
 //-------------------------------------------
 
 
-// ---> working on folder3/
+// --->  working on folder3/
 
-// :~/$ rm -i *.txt              // --> remove all file with .txt But Permission "y" or "n"
+// :~/$  rm -i *.txt              // --> remove all file with .txt But Permission "y" or "n"
 
-// :~/$ yes n | rm - *.txt       
+// :~/$  yes n | rm - *.txt       
 
-// :~/$ yes y | rm - *.txt       // --> all txt file imidietaly Deleted
+// :~/$  yes y | rm - *.txt       // --> all txt file imidietaly Deleted
+ 
+// :~/$  ls
 
-// :~/$ ls
+// :~/$  echo lollerskates > file.txt
 
-// :~/$ echo lollerskates > file.txt
+// :~/$  cat file.txt 
 
-// :~/$ cat file.txt 
+// :~/$  cat file.txt >>echo
 
-// :~/$ cat file.txt >>echo
+// :~/$  ls 
 
-// :~/$ ls 
+// :~/$  cat file.txt | echo
 
-// :~/$ cat file.txt | echo
+// :~/$  cat file.txt | cat 
 
-// :~/$ cat file.txt | cat 
+// :~/$  cat file.txt | echo hy
+// -->   hi
+ 
+// :~/$  yes > /dev/null &    // --> [1] 1257
 
-// :~/$ cat file.txt | echo hy
-// --> hi
-
-// :~/$ yes > /dev/null &    // --> [1] 1257
-
-// :~/$ ps aux | grep yes 
+// :~/$  ps aux | grep yes 
 
 
 
@@ -606,21 +606,87 @@
 
 // ============ Principle of least Power ============ //
 
-// :~$ whoami                // --> dell 
+// :~$  ls
 
-// :~$ cat /etc/passwd
+// :~$  whoami
 
-// :~/$ cd..
+// :~$  whoami akram
 
-// :~/$ mkdir hi             // --> creat hi direc.
+// :~$  whoami                // --> dell     
 
-// :~/$ -lsah
- 
-// :~/$ cd ..
+// :~$  cat /etc/passwd
 
-// :~/$ cd Home/
+// :~$  clear 
+
+// ------------------------------------
+
+
+// :~$  whoami                // --> dell 
+
+// :~$  cd /
+
+// :~/$  mkdir hi             // --> creat hi direc.
 
 // :~/$  ls -lsah
+
+// :~/$  cd /Home
+
+// :~/home$  ls -lsah
+
+// :~/home$  rm -rf / 
+
+// :~/home$  rm -rf akram             // --> delete all files and dir in    /
  
-// :~/$ rm -rf / Home/*      // --> delete all files and dir in    /
+
+
+
+
+// ============ Superuser ============ //
+
+// :~/home$  cd /
+
+// :~/$  ls
  
+// :~/$  sudo mkdir hi
+ 
+// :~/$  ls
+
+// :~/$  ls -lsah
+
+// :~/$  sudo whoami          // --> root
+
+// :~/$  whoami               // --> dell
+
+// :~/$  sudo su              // --> Enter the root directory
+
+// :/#  whoami                // --> root
+
+// :/#  exit                  // --> exit from super user to normal user
+
+// :~/$  sudo echo hi         // --> hi
+
+// :~/$  sudo useradd brian           // --> brand new User
+
+// :~/$  sudo passwd brian            // --> password
+/* - Enter new UNIX password:
+ * - Retype ne UNIX password: 
+ *
+ * - passwd: password updated successfully
+ */
+
+// ~/:$  su  brian                    // --> Enter the Passwd
+// --->  password: 
+
+// ~/:$  pwd
+
+/* / */
+
+// ~/:$  whoami     
+// --->  brian
+
+// ~/:$  ls
+
+// ~/:$  cat /etc/issue
+// --->  Ubuntu 18.04.4 LTS \n \l
+
+// ~/:$  clear
