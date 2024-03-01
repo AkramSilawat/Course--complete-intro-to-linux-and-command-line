@@ -873,3 +873,13 @@
 // :~/hello$  touch my-new-program 
 
 
+// :~/hello$  sudo chmod +x my-new-program        // ----> Add execute permission for user 
+
+// :~/hello$  ls -lsah
+
+// :~/hello$  sudo chmod -x my-new-program        // ----> Remove execute permission for user 
+
+// :~/hello$  ls -lsah    
+
+// :~/hello$  sudo chmod +w my-new-program        // ----> Add write permission for user 
+
