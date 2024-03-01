@@ -52,13 +52,43 @@
 
 
 
-// ============ VIM: Basic Command ============ //
+// ============ VIM: Basic Commands ============ //
 
 
-// :~$  vi textfile.txt
+// :~$  vim textfile.txt
 
 // - Output:
 // - Press ENTER to continue
+
+// - this is a text file
+
+// - I can write whatever I want 
+
+// - this is so cool
+
+// - aklsdflkjadsflkdsaf
+
+// : q
+
+
+
+ 
+
+// :~$  vim textfile.txt
+
+// :~$  vim textfile.txt
+
+// :~$  vim textfile.txt
+
+// :d       (delete the line )
+
+// :d100      (delete the next 100 lines) delete all the up here (delete everything in the file) 
+
+
+
+
+
+
 
 // - this is brian
 
