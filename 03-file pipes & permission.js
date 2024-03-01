@@ -702,19 +702,111 @@
    - 263  clear  
     */
 
-//----> Shortcut Key for Exit: CTRL + D
+// ----> Shortcut Key for Exit: CTRL + D
 
 // :~$  exit                  // --> Exit  from Brians account and return to root account
 
 // :~$  sudo usermod -aG sudo brian
 
 // :~$  su brian
-// --> password:
+// -->  password:
 
-// :~$  whoami                // --> Checking Username
+// $  whoami                // --> Checking Username
 // --> brian
 
-// :~$  sudo whoami           // --> Checking Sudo Username
+// $  sudo whoami           // --> Checking Sudo Username
 // -->  root
 
-// :~$  exit
+// $  exit
+
+
+
+
+
+// ============= Group Permission ============ //
+
+// :~$  su brian
+
+// :~$  whoami 
+    // --> brian 
+
+// :~$  ls
+
+// :~$  pwd
+    // -->  / 
+
+// :~$  cd /home/james
+    // --> bash: cd: /home/
+    // --> james: No such file or directory 
+
+// :~$  ls
+
+// :~$  ls -lsah 
+
+// :~$  vi another-file.txt
+
+// :~$  whoami 
+    // --> brian
+
+// :~$  ls -lsah /bin
+
+// :~$  pwd    
+ 
+// :~$  ls -lsah
+
+// :~$  touch brian.txt
+
+// :~$  sudo touch brian.txt
+
+// :~$  ls -lsah
+
+// :~$  exit 
+
+// :/$  whoami
+
+// :/$  cd /
+
+// :/$  ls
+
+// :/$  mkdir hello
+// ---> mkdir: cannot directory 'hello': Permission denied
+
+// :/$  sudo mkdri hello
+
+// :/$  ls
+
+// :/$  ls -lsah
+
+// :/$  cd hello
+
+// :/hello$  touch hello.txt  
+
+// :/hello$  sudo chown akram: akram /hello
+
+// :/hello$  ls -lsah
+
+// :/hello$  whoami
+
+// :/hello$  touch hello.txt
+
+// :/hello$  su brisn
+// ---> Password:
+
+// $  ls
+
+// $  touch brian.txt
+
+// $  exit
+
+// $  clear
+
+// ---------------------------------------------
+
+
+
+
+
+
+
+
+
