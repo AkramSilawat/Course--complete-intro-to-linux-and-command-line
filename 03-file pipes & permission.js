@@ -802,11 +802,42 @@
 
 // ---------------------------------------------
 
+// :/hello$  ls -lsah
 
+// :/hello$  sudo chmod u=rw,g=rw,o=rw hello
 
+// :/hello$  ls -lsah
 
+// :/hello$  su brian
 
+// $  touch brian.txt  
 
+// $  ls
 
+// $  vi hello.txt
+
+// $  ls
+
+// $  exit
+
+// $  cat hello.txt
+
+// $  ls -lsah
+
+// $  sudo chmod u=rw,g=rw,o=rw .
+
+// $  ls -lsah
+
+// :/$  sudo chmod u=rwx,g=rwx,o=rwx hello/
+
+// :/$  cd hello
+  
+// :/$  ls
+
+// :/$  ls -lsah
+
+// :/$  clear
+
+//------------------------------------------------
 
 
