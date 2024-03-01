@@ -690,3 +690,31 @@
 // --->  Ubuntu 18.04.4 LTS \n \l
 
 // ~/:$  clear
+
+// --------------------------------------
+
+
+// :~$  history | tail -5
+/* - 267  cd /home/brian
+   - 266  pwd
+   - 265  whoami
+   - 264  history | tail -5
+   - 263  clear  
+    */
+
+//----> Shortcut Key for Exit: CTRL + D
+
+// :~$  exit                  // --> Exit  from Brians account and return to root account
+
+// :~$  sudo usermod -aG sudo brian
+
+// :~$  su brian
+// --> password:
+
+// :~$  whoami                // --> Checking Username
+// --> brian
+
+// :~$  sudo whoami           // --> Checking Sudo Username
+// -->  root
+
+// :~$  exit
