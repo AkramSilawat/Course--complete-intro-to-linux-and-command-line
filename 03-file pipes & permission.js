@@ -794,7 +794,7 @@
 
 // $  ls
 
-// $  touch brian.txt
+// $  touch brian.txt              // --> Permission Denied
 
 // $  exit
 
@@ -805,6 +805,10 @@
 // :/hello$  ls -lsah
 
 // :/hello$  sudo chmod u=rw,g=rw,o=rw hello
+//  --> u  = User 
+//  --> g  = group
+//  --> o  = other users
+//  --> rw = read and write 
 
 // :/hello$  ls -lsah
 
@@ -814,7 +818,7 @@
 
 // $  ls
 
-// $  vi hello.txt
+// $  vi hello.txt          ------> write 
 
 // $  ls
 
@@ -838,6 +842,34 @@
 
 // :/$  clear
 
-//------------------------------------------------
+// ------------------------------------------------
+
+
+
+// ============ Permission Shortcuts ============ //
+
+//:~/hello$  touch file.txt
+
+// :~/hello$  sudo chmod 777 file.txt           // ----> This command will give read, write and execute permission to the owner, group and public.
+  
+// :~/hello$  sudo chmod u=rwx, g=rwx, o=rwx file.txt
+
+//  ----> chmod:  Linux changes the permissions of a file or directory <---- //
+
+// :~/hello$  sudo chmod 667 file.txt      // ----> Sets all three bits to '1    
+
+// :~/hello$  sudo chmod 700 file.txt
+
+// :~/hello$  ls -lsah
+
+// :~/hello$  sudo chmod 600 file.txt
+
+// :~/hello$  ls -lsah
+
+// :~/hello$  sudo chmod 640 file.txt
+
+// :~/hello$  ls -lsah
+
+// :~/hello$  touch my-new-program 
 
 
