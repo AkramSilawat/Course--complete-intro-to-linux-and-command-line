@@ -52,3 +52,41 @@
 // :~$  v i .bash_profile
 // ---> Add the following line at the end of the file:*
 // ---> export PATH=$PATH:/usr/local/bin 
+
+
+
+
+
+// ============ Processes ============ //
+
+// :~$  ps                       // --> shows all processes with process name in them.
+
+// :~$  sleep 1
+
+// :~$  sleep 2
+
+// :~$  sleep 10 &               // --> runs sleep command as a background process, returns its PID (process ID)
+
+// :~$  ps
+
+// :~$  kill -9 <sleep-process-id>      // --> kills a specific process, identified by
+
+// :~$  ps
+
+// :~$  sleep 100 &                  
+
+// :~$  ps aux        
+
+// :~$  ps
+
+// :~$  kill -SIGKILL 1783           
+
+// :~$  ps aux 
+
+// :~$  ps aux | less
+
+// :~$  ps aux | grep "ps"
+
+// :~$  jobs         
+
+// :~$  bg 1            
