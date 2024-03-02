@@ -90,3 +90,33 @@
 // :~$  jobs         
 
 // :~$  bg 1            
+
+// :~$  fg 1              // --> CTRL+G End
+
+// :~$  jobs 1
+
+// :~$  bg 1
+
+// :~$  jobs --help      
+
+// :~$  jobs -l           ----> list process IDs in added
+
+// :~$  kill -9 1793
+
+// :~$  jobs 
+
+// :~$  sleep 1000 & 
+
+// :~$  jobs
+
+// :~$  sleep 1000 > output.txt &
+
+// :~$  jobs --help
+
+// :~$  jobs -l 
+
+// :~$  kill -9 1796 1797
+
+// :~$  job -l
+
+// ============ Exit Codes & Process ============ //
