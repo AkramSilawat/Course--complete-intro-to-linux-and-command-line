@@ -24,3 +24,31 @@
 // :~$  exit
 
 
+
+// :~$  echo $TEST_THINK
+// ---> blah blah
+
+// :~$  su brian
+// ---> Password:
+
+// $  echo $TEST_THINK          // --> blah blah
+
+// $  vi ~/.bash_rc.            // --> add export TEST_THINK=blah blah [ENTER], then type ':wq' to save and quit 
+
+// $  exit
+
+
+// :~$  vi ~/.bashrc             // --> open up bash run
+
+// :~$  echo $ANOTHER_VARIABLE
+
+// :~$  vi ~/.bashrc
+
+// :~$  source ~/.bashrc          // --> reload .bashrc file so that changes take effect immediately.
+
+// :~$  echo $ANOTHER_VARIABLE
+// ---> something cool
+
+// :~$  v i .bash_profile
+// ---> Add the following line at the end of the file:*
+// ---> export PATH=$PATH:/usr/local/bin 
