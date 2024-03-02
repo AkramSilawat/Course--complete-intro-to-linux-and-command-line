@@ -3,13 +3,16 @@
 // ---> LESS <---
 
 
-// :~$  less textfile.txt
+// :~$  less textfile.txt       // ---> exit Q
 
 // :~$  ls 
 
 // -  textfile.txt  test1.c   test2.c   test3.cpp
 
-// :~$  vi textfile.txt
+// :~$  vi textfile.txt     
+// ---> Edit (1)Esc  (2):w
+// ---> exit (1)Esc  (2):wq 
+// ---> exit without save (1)Esc  (2) q! 
 
 // :~$  less 
 
@@ -883,3 +886,7 @@
 
 // :~/hello$  sudo chmod +w my-new-program        // ----> Add write permission for user 
 
+
+
+
+// ============ Environments ============ //
