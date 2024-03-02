@@ -119,4 +119,16 @@
 
 // :~$  job -l
 
+
+
+
 // ============ Exit Codes & Process ============ //
+
+// :~$ date             --------->  Current Date 
+
+// :~$ echo &?             -------->  $? corresponds to the last exit code, in this case 0
+ 
+// :~$ yes                 -------->  hit CTRL+C to stop it
+
+// :~$ echo $?          --------->  you stopped it so it exited with a non-zero code, 130
+
