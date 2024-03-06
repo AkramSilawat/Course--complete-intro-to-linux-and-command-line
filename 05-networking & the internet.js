@@ -24,7 +24,7 @@
 
 // ============ Linking two Machines with SSH ============ //
 
-// :~$ ssh-keygen -t rsa          ---->> generate the RSA type key pair
+// :~$  ssh-keygen -t rsa          ---->> generate the RSA type key pair
 
 // - Generating public/private rsa key pair.
 // - Enter file in which to save the key (/home/akram/.ssh/id_rsa):
@@ -47,3 +47,56 @@
       |   o=oo*+.. .oOE*| 
       +----[SHA256]-----+
     */                                
+
+// :~$ cd  .ssh/
+
+
+
+
+// ============ SFTP ============ //   -- Douat
+
+// ===>>  SFTP : Secure File Transfer Protocols
+// ===>>  transfer files between two computers
+
+// akram@primary:~$  sftp brian0912.168.64.63
+// --->>  ssh: Could not resolve hostname brian0912.168.64.63: Name or service not known
+// --->>  Connection closed.  
+// --->>  Connection closed
+
+
+
+
+
+// ============ ( Wget ) ============ //
+
+
+// akram@primary:~$  wget https://raw.githubusercontent.com/btholt/bash2048/master/bash2048.sh
+
+// akram@primary:~$  ls
+
+// akram@primary:~$  ls -lsah
+
+// akram@primary:~$  chmod +x bash 2048.sh
+
+// akram@primary:~$  ls -lsah
+
+// akram@primary:~$  bash2048.sh
+// --->> bash2048.sh: command not found
+
+// akram@primary:~$  . bash2048.sh
+ /*Bash 2048 v1.1 (https://github.com/mydzor/bash2048) pieces=16 target=2048 score=84
+
+   /------+------+------+------\
+   |    4 |    8 |    2 |    2 |
+   |------+------+------+------|
+   |    8 |    4 |    8 |    8 |
+   |------+------+------+------|
+   |    4 |    2 |    4 |    4 |
+   |------+------+------+------|
+   |    2 |    4 |    2 |    2 |
+   \------+------+------+------/
+   Your score: 84
+   This game lasted 00:01:30
+   */
+
+// akram@primary:~$  wget --help
