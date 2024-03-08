@@ -119,6 +119,8 @@
  
 // akram@primary:~$ clear
 
+// -----------------------------------
+
 // akram@primary:~$  cd ~
 
 // akram@primary:~$  pwd
@@ -128,3 +130,8 @@
 // --->> Starting HTTP Server: Running on http://0.0.0.0:8000/, Ctrl+C to stop server.
 
 // :~$ exit        // ---->> close out of ssh session
+
+
+
+
+// ============ Curl HTTP Verbs ============ //
