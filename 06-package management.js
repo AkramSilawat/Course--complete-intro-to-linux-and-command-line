@@ -1,66 +1,66 @@
 // ========== Package Managment & APT Basics ========== //
 
-// akram@primary:~$  dpkg --help
+// :~$  dpkg --help
 // --->>  Usage: dpkg [options] command [arguments...]
 
-// akram@primary:~$  sudo apt install aptitud            // --->> Installing aptitude tool   
+// :~$  sudo apt install aptitud            // --->> Installing aptitude tool   
 
 
-// akram@primary:~$  aptitude                
+// :~$  aptitude                
 
-// akram@primary:~$  apt-get install   aptitude          // --->> Installing aptitude using apt       
+// :~$  apt-get install   aptitude          // --->> Installing aptitude using apt       
 
-// akram@primary:~$  apt install lolcat              colorfull word
+// :~$  apt install lolcat              colorfull word
 
-// akram@primary:~$  lolcat --help                       // --->> Checking if the package is installed correctly or not. 
+// :~$  lolcat --help                       // --->> Checking if the package is installed correctly or not. 
 
-// akram@primary:~$  cat log.txt 
+// :~$  cat log.txt 
 
-// akram@primary:~$  lolcat log.txt   
+// :~$  lolcat log.txt   
 
 //--------------------------------
 
-// akram@primary:~$  sudo apt install nodejs        
+// :~$  sudo apt install nodejs        
 // --->> install
 
 
-// akram@primary:~$  node  -v           
+// :~$  node  -v           
 // --->> Check Node Version
 
 
-// akram@primary:~$  node -e "console.log('hello from node')"     
+// :~$  node -e "console.log('hello from node')"     
 // ---->> hello from node
 
 
-// akram@primary:~$  apt search nodejs                            
+// :~$  apt search nodejs                            
 // ---->> Search for packages related to nodejs
 
 
-// akram@primary:~$  sudo apt remove nodejs
+// :~$  sudo apt remove nodejs
 
 // :~$  apt show lolcat                
-// akram@primary--->> Shows the package information of a specific package
+// --->> Shows the package information of a specific package
 
 
-// akram@primary:~$  sodo apt autoremove                
+// :~$  sodo apt autoremove                
 // --->> Removes unused dependencies after installing/removing a package.
 
 
-// akram@primary:~$  sodu apt update                
+// :~$  sodu apt update                
 // --->> update system package listings, then install/upgrade any new versions.
 
 
-// akram@primary:~$  apt list                         
+// :~$  apt list                         
 
 
-// akram@primary:~$  apt list --upgradeable             
+// :~$  apt list --upgradeable             
 // --->> Lists upgradable Packages
 
 
-// akram@primary:~$  sudo apt upgrade                
+// :~$  sudo apt upgrade                
 
 
-// akram@primary:~$  sodu apt full-upgrade          
+// :~$  sodu apt full-upgrade          
 // --->> Upgrades all installed packages and their dependencies to newest versions, without removing.
 
 
@@ -68,15 +68,15 @@
 
 // ============ APT Q&A ========== //
 
-// akram@primary :~$  sudo apt upgrade nodejs
+// :~$  sudo apt upgrade nodejs
 // --->> Reading package lists... Done 
 
-// akram@primary :~$  node -v
+// :~$  node -v
 // --->> v8.10.0
 
-// akram@primary :~$  sudo apt update
+// :~$  sudo apt update
 
-// akram@primary :~$  
+// :~$  
 
 
 
