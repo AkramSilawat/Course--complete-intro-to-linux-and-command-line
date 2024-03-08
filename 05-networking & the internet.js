@@ -100,3 +100,31 @@
    */
 
 // akram@primary:~$  wget --help
+
+
+
+
+// ============ Curl Basics ============ // 
+
+
+// akram@primary:~$  curl https://raw.githubusercontent.com/btholt/bash2048/master/bash2048.sh
+  
+// akram@primary:~$  curl https://raw.githubusercontent.com/btholt/bash2048/master/bash2048.sh > game.sh
+
+
+// akram@primary:~$  cat game.sh                // --->> display contents of
+// --->> file in terminal
+
+// akram@primary:~$  sh game.sh                 // --->> run the script
+ 
+// akram@primary:~$ clear
+
+// akram@primary:~$  cd ~
+
+// akram@primary:~$  pwd
+// -- /home/student
+
+// akram@primary:~$  python3 -m http.server 8000 --bind 0.0.0.0
+// --->> Starting HTTP Server: Running on http://0.0.0.0:8000/, Ctrl+C to stop server.
+
+// :~$ exit        // ---->> close out of ssh session
