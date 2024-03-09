@@ -128,3 +128,35 @@
 // :~$  gen_files
 // --> done
 
+
+
+
+
+// ============ Arguments ============ //
+
+// :~$  vi my_bin/gen_files
+
+// :~$  gen_files ~/yet-different-folder
+// -->  done
+
+// :~$  pwd
+// --> /home/akram
+
+// :~$  ls
+
+// :~$  cd yet-different-folder/
+
+// :~$  /yet-different-folder$ ls
+
+// :~$  /yet-different-folder$ cd .. 
+
+// :~$  vi my_files still-different-folder
+// ==> enter a file prefix: frontendmasters
+// --> done
+
+// :~$  ls
+
+// :~$  cd still-different-folder/
+
+// :~/still-different-folder$  ls 
+
