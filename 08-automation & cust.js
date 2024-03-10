@@ -88,3 +88,16 @@
 
 
 
+// ==========> Colors & Awesome Bash <========== //
+
+//:~/my-git-project another-project $  cd .. 
+
+//:~$  /bin/echo
+
+//:~$  /bin/echo -e "hi"
+// --> hi
+
+//:~$  echo -e "this is you make color \e[32mgreen"
+// --> this is you make color green
+
+//:~$  /usr/bin/env bash --version          
