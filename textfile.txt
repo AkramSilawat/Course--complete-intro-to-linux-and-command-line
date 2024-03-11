@@ -1,0 +1,30 @@
+head
+
+this is a text file
+
+
+B`::`
+I can write whatever I iiiiiiiekhjhhgfqfjdfjjjjjjfghasrvn
+qqqqqqqhhgfhghjsfdgjhfghaatbjvjaiufjvnI
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed ultricies lacus, id iaculis sapien. Curabitur aliquam egestas gravida. Cras vitae bibendum mauris. Proin orci dui, fermentum at ligula imperdiet, consequat ullamcorper turpis. Nulla facilisi. Maecenas auctor vehicula ex, quis sollicitudin lectus feugiat a. Vivamus facilisis porttitor egestas. Nunc porttitor blandit nulla mollis accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc id erat urna. Maecenas auctor ut justo vel feugiat. Curabitur pulvinar vehicula venenatis. In mauris mi, elementum vitae nisi et, sagittis euismod diam. Duis semper efficitur dolor a interdum.
+
+Vivamus sagittis sed massa in egestas. Quisque condimentum, sapien id rhoncus vehicula, leo mi auctor mauris, vel dictum diam libero eget est. Etiam imperdiet nisl nec nisi porta porta. Integer dignissim quam non lacus porta, non scelerisque lectus imperdiet. Curabitur ut ultrices purus, vel ultricies ante. In viverra consectetur lobortis. Phasellus vehicula vulputate massa, at feugiat massa accumsan at. Aenean orci libero, ultrices non egestas ac, suscipit sit amet ante. Phasellus tincidunt volutpat consectetur. Donec est nibh, sodales eu imperdiet ac, blandit at nulla. Ut at commodo odio, vitae ullamcorper ante. Integer sodales nibh sed mi feugiat, ut semper dui commodo.
+
+Etiam iaculis posuere finibus. Fusce gravida, ante ut aliquet posuere, odio nisl suscipit ipsum, sed bibendum nunc orci sit amet turpis. Nam auctor feugiat nisl, at faucibus nisi dapibus at. Duis vel ultrices ex. Integer iaculis sollicitudin blandit. Curabitur aliquet libero vitae hendrerit imperdiet. Quisque vestibulum magna eu sem scelerisque ornare.
+
+Mauris a tortor aliquet, placerat lacus vel, mollis elit. Vestibulum ex ex, varius ut accumsan vestibulum, varius eget urna. Proin sit amet justo dignissim ligula pretium feugiat. Quisque cursus turpis erat, consequat dictum turpis pharetra ut. Cras pellentesque gravida magna ac venenatis. Praesent facilisis sem eget ornare facilisis. Praesent cursus fermentum aliquet. Maecenas condimentum condimentum faucibus.
+
+Nam blandit feugiat odio, ac fringilla quam mattis ac. Nullam sit amet ipsum sapien. Maecenas ante lacus, iaculis sit amet rhoncus id, facilisis quis ante. Nunc tempor tincidunt purus vel pellentesque. Vivamus id nunc risus. Curabitur ex turpis, pretium quis dignissim hendrerit, tempor non massa. Sed libero dolor, iaculis quis nibh et, laoreet consectetur metus. Aliquam porta maximus ullamcorper. Praesent congue, metus quis sodales congue, neque urna vulputate purus, quis cursus diam nulla non eros. Fusce pharetra lacinia augue in dictum. Vestibulum eros erat, ultrices nec convallis sit amet, porta ut nibh. Ut pellentesque arcu libero, eu accumsan velit euismod eget. Quisque vel justo dui.
+
+Duis sodales dolor leo, suscipit luctus tortor sodales id. Pellentesque semper nunc sit amet erat dictum condimentum. Donec fermentum arcu sed eros pulvinar commodo. Pellentesque id turpis sit amet nunc hendrerit pharetra id non risus. Nullam ac turpis ut neque aliquam feugiat. Sed sit amet mollis ante. Phasellus a urna eros.
+
+Duis blandit elit non lacus pellentesque, lobortis sagittis dolor rutrum. Aliquam erat volutpat. Donec justo lectus, scelerisque a neque maximus, porttitor feugiat lacus. Sed vel enim tellus. Nunc tristique porta augue ut placerat. Vestibulum ac rutrum dolor, in bibendum elit. Aliquam quis mauris massa. Ut nunc augue, euismod vitae tincidunt at, porttitor eget sapien. Curabitur tincidunt nisl urna, nec tempus augue interdum vitae. Nunc eget condimentum risus. Vivamus euismod, libero sit amet aliquet auctor, ex sem tincidunt magna, at semper purus felis eget nibh. Donec sed rhoncus tortor, et facilisis lectus. Donec gravida pulvinar mi nec scelerisque. Aliquam sed pulvinar orci. Morbi congue sollicitudin urna eu malesuada.
+
+Nulla viverra a est in commodo. Aliquam dapibus mauris sed erat placerat, in congue augue lobortis. Morbi ac lorem et velit accumsan sagittis vel in nibh. Sed lobortis elementum ligula, luctus cursus orci aliquam vitae. Donec massa neque, scelerisque vel sapien congue, porttitor laoreet lacus. Sed rhoncus vehicula arcu in hendrerit. Etiam aliquet tincidunt mi, id interdum lectus consequat ac. Nunc sit amet placerat dui. Aliquam posuere ipsum lectus, at tristique ex gravida nec. Suspendisse condimentum enim rhoncus suscipit vulputate. Proin ullamcorper, nibh nec pellentesque viverra, est augue ornare tellus, quis fringilla nisi enim at ligula. Fusce mollis, lacus tincidunt euismod dapibus, turpis sem dapibus tortor, et sollicitudin diam dui a felis. Nam sed lobortis mauris, id mollis risus.
+
+Morbi at magna rutrum odio lobortis vestibulum sit amet ac arcu. Phasellus malesuada diam id dui ullamcorper, nec condimentum odio venenatis. Nulla luctus luctus ligula, sed posuere ipsum dapibus vel. Aenean vulputate velit quis eros porta porta. Nulla bibendum tortor nisi, sit amet faucibus elit cursus quis. In at luctus nisl. Proin quis euismod metus. Cras tristique sapien in pulvinar rutrum. Fusce congue arcu sapien, nec malesuada mi facilisis sit amet.
+
+Pellentesque nec quam vitae nulla iaculis suscipit. Sed quis augue at nulla facilisis pulvinar vitae in ante. Morbi rhoncus aliquet nulla, vel tincidunt dui auctor ut. Ut lobortis, libero scelerisque venenatis accumsan, ligula sapien tristique urna, cursus tincidunt augue orci sed risus. Vivamus euismod sem ex, a rutrum mi imperdiet et. Quisque lobortis ligula metus, quis viverra velit tempus vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut condimentum lacus ex, nec euismod tortor lacinia non. Maecenas hendrerit, turpis ultricies convallis tempus, ligula nunc feugiat sapien, sit amet ornare magna mi bibendum tellus. Curabitur finibus dolor a rhoncus scelerisque. Nullam vitae nisi orci. In consequat rutrum vulputate.
+
+tail
